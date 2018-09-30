@@ -14,7 +14,7 @@ def rank_only(array)
     new_array
 end
 
-def
+
 
 def line(array)
   if array.size == 0

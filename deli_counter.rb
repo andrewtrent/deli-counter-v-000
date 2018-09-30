@@ -31,7 +31,7 @@ def now_serving(array)
   if array.size == 0
     puts "There is nobody waiting to be served!"
   else
-    served = array.pop
+    served = array.unshift
     puts "Currently serving #{served}."
   end
 end
